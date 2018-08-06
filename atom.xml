@@ -18,8 +18,8 @@
   
   <entry>
     <title>这是我的第一篇文章</title>
-    <link href="https://dickyxiao.github.io/2018/08/02/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>https://dickyxiao.github.io/2018/08/02/这是我的第一篇文章/</id>
+    <link href="https://dickyxiao.github.io/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
+    <id>https://dickyxiao.github.io/这是我的第一篇文章/</id>
     <published>2018-08-02T08:49:53.000Z</published>
     <updated>2018-08-04T08:21:36.614Z</updated>
     
@@ -48,8 +48,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://dickyxiao.github.io/2018/08/02/hello-world/"/>
-    <id>https://dickyxiao.github.io/2018/08/02/hello-world/</id>
+    <link href="https://dickyxiao.github.io/hello-world/"/>
+    <id>https://dickyxiao.github.io/hello-world/</id>
     <published>2018-08-02T08:33:31.551Z</published>
     <updated>2018-08-04T08:20:02.649Z</updated>
     
