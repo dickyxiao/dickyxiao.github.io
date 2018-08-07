@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dickyxiao.github.io/"/>
-  <updated>2018-08-04T08:20:02.649Z</updated>
+  <updated>2018-08-07T09:48:38.206Z</updated>
   <id>https://dickyxiao.github.io/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>Hello World</title>
     <link href="https://dickyxiao.github.io/hello-world/"/>
     <id>https://dickyxiao.github.io/hello-world/</id>
-    <published>2018-08-02T08:33:31.551Z</published>
-    <updated>2018-08-04T08:20:02.649Z</updated>
+    <published>2018-08-02T08:33:00.000Z</published>
+    <updated>2018-08-07T09:48:38.206Z</updated>
     
     <summary type="html">
     
@@ -38,11 +38,7 @@
       <category term="web前端" scheme="https://dickyxiao.github.io/categories/web%E5%89%8D%E7%AB%AF/"/>
     
     
-      <category term="jQuery" scheme="https://dickyxiao.github.io/tags/jQuery/"/>
-    
       <category term="python" scheme="https://dickyxiao.github.io/tags/python/"/>
-    
-      <category term="java" scheme="https://dickyxiao.github.io/tags/java/"/>
     
   </entry>
   
