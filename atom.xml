@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dickyxiao.github.io/"/>
-  <updated>2018-08-06T14:22:14.225Z</updated>
+  <updated>2018-08-04T08:20:02.649Z</updated>
   <id>https://dickyxiao.github.io/</id>
   
   <author>
@@ -15,36 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>大爆炸宇宙论</title>
-    <link href="https://dickyxiao.github.io/%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
-    <id>https://dickyxiao.github.io/这是我的第一篇文章/</id>
-    <published>2018-08-02T08:49:53.000Z</published>
-    <updated>2018-08-06T14:22:14.225Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;“大爆炸宇宙论”（The Big Bang
-        
-      
-    
-    </summary>
-    
-      <category term="电子音乐" scheme="https://dickyxiao.github.io/categories/%E7%94%B5%E5%AD%90%E9%9F%B3%E4%B9%90/"/>
-    
-    
-      <category term="jQuery" scheme="https://dickyxiao.github.io/tags/jQuery/"/>
-    
-      <category term="python" scheme="https://dickyxiao.github.io/tags/python/"/>
-    
-      <category term="django" scheme="https://dickyxiao.github.io/tags/django/"/>
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>

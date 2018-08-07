@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[大爆炸宇宙论]]></title>
-    <url>%2F%E8%BF%99%E6%98%AF%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0%2F</url>
-    <content type="text"><![CDATA[“大爆炸宇宙论”（The Big Bang Theory）是现代宇宙学中最有影响的一种学说。它的主要观点是认为宇宙曾有一段从热到冷的演化史。在这个时期里，宇宙体系在不断地膨胀，使物质密度从密到稀地演化，如同一次规模巨大的爆炸。简介编辑“大爆炸宇宙论”（The Big Bang Theory）认为：宇宙是由一个致密炽热的奇点于137亿年前一次大爆炸后膨胀形成的。1927年，比利时天文学家和宇宙学家勒梅特（Georges Lemaître）首次提出了宇宙大爆炸假说。1929年，美国天文学家哈勃根据假说提出星系的红移量与星系间的距离成正比的哈勃定律，并推导出星系都在互相远离的宇宙膨胀说。现代宇宙学中最有影响的一种学说。它的主要观点是认为宇宙曾有一段从热到冷的演化史。在这个时期里，宇宙体系在不断地膨胀，使物质密度从密到稀地演化，如同一次规模巨大的爆炸。该理论的创始人之一是伽莫夫。1946年美国物理学家伽莫夫正式提出大爆炸理论，认为宇宙由大约140亿年前发生的一次大爆炸形成。上世纪末，对Ia超新星的观测显示，宇宙正在加速膨胀，因为宇宙可能大部分由暗能量组成产生原理编辑爆炸之初，物质只能以中子、质子、电子、光子和中微子等基本粒子形态存在。宇宙爆炸之后的不断膨胀，导致温度和密度很快下降。随着温度降低、冷却，逐步形成原子、原子核、分子，并复合成为通常的气体。气体逐渐凝聚成星云，星云进一步形成各种各样的恒星和星系，最终形成我们如今所看到的宇宙。“宇宙并非永恒存在，而是从虚无创生”的思想在西方文化中可以说是根深蒂固。虽然希腊哲学家曾经考虑过永恒宇宙的可能性，但是，所有西方主要的宗教一直坚持认为宇宙是上帝在过去某个特定时刻创造的。]]></content>
-      <categories>
-        <category>电子音乐</category>
-      </categories>
-      <tags>
-        <tag>jQuery</tag>
-        <tag>python</tag>
-        <tag>django</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
