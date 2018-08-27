@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://dickyxiao.github.io/"/>
-  <updated>2018-08-07T09:48:38.206Z</updated>
+  <updated>2018-08-27T14:20:50.895Z</updated>
   <id>https://dickyxiao.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Fiddler之基础篇</title>
+    <link href="https://dickyxiao.github.io/Fiddler%E4%B9%8B%E5%9F%BA%E7%A1%80%E7%AF%87/"/>
+    <id>https://dickyxiao.github.io/Fiddler之基础篇/</id>
+    <published>2018-08-27T14:12:35.000Z</published>
+    <updated>2018-08-27T14:20:50.895Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;一、Fidder是什么？&quot;&gt;&lt;a href=&quot;#一、Fidder是什么？&quot; class=&quot;headerlink&quot; title=&quot;一、Fidder是什么？&quot;&gt;&lt;/a&gt;一、Fidder是什么？&lt;/h2&gt;&lt;h3 id=&quot;一）简介&quot;&gt;&lt;a href=&quot;#一）简介&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="接口测试" scheme="https://dickyxiao.github.io/categories/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="Fiddler" scheme="https://dickyxiao.github.io/tags/Fiddler/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
