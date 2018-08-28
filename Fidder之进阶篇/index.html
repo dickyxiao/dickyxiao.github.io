@@ -120,6 +120,10 @@
 <meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fiddler-Inspectors%20tab.png">
 <meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fillder-AutoResponder.png">
 <meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fiddler-rulerdit.png">
+<meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fidder-%E6%97%A0%E5%89%8D%E7%BC%80.png">
+<meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fidder-not.png">
+<meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fidder-Exact.png">
+<meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fidder-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.png">
 <meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fillder-atuoresponse-example1.png">
 <meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fiddler-atuoresponse-example2.png">
 <meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fiddler-atuoresponse-example3.png">
@@ -138,7 +142,7 @@
 <meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fidder-sethost.png">
 <meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fidder-%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B31.png">
 <meta property="og:image" content="http://pdy15ad3h.bkt.clouddn.com/fidder-%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B32.png">
-<meta property="og:updated_time" content="2018-08-28T04:01:46.514Z">
+<meta property="og:updated_time" content="2018-08-28T04:14:28.106Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Fidder之进阶篇">
 <meta name="twitter:description" content="Fidder该怎么用？启动关闭Fiddler1、fiddler开启：点击File –&amp;gt; Capture Traffic，开启后左下角会有标识（Capturing）显示，同样可以通过点击该标识进行开启与关闭。开启后fiddler就可以抓包。 设置解密HTTPS的网络数据Fiddler可以通过伪造CA证书来欺骗浏览器和服务器.所以Fiddler不仅能监听HTTP请求而且默认情况下也能捕获到HTT">
@@ -384,7 +388,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2018-08-28T12:01:46+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2018-08-28T12:14:28+08:00">
                 2018-08-28
               </time>
             
@@ -434,7 +438,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  5,469字
+                  5,213字
                 </span>
               
 
@@ -450,7 +454,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  21分钟
+                  19分钟
                 </span>
               
             </div>
@@ -493,7 +497,7 @@
 <li>DEFLATE Encoding —— DEFLATE 压缩</li>
 <li>BZIP2 Encoding —— BZIP2 压缩对未编码压缩的请求，可以选择不同的模式，看 Entity Size 里显示压缩后有多大。从而根据这个决定是否需要采用这样的压缩技术来提升网站的性能。<br>2)    Headers —— 用分级视图显示响应的 header<br>3)    TextView —— 使用文本显示相应的 body<br>4)    ImageVies —— 如果请求是图片资源，显示响应的图片。<br>左侧灰色区域会显示图片的大小、宽高、文件格式等信息，在下方还可以选择缩放模式：自动缩放、缩放以适应显示区域大小、无缩放<br>5)    HexView —— 用十六进制数据显示响应<br>6)    WebView —— 响应在 Web 浏览器中的预览效果<br>7)    Auth —— 显示响应 header 中的 Proxy-Authorization 和 Authorization 信息<br>8)    Caching —— 显示此请求的缓存信息<br>9)    Privacy —— 显示此请求的私密 (P3P) 信息<br>10)    Raw —— 将整个响应显示为纯文本<br>11)    XML —— 如果响应的 body 是 XML 格式，就是用分级的 XML 树来显示它 </li>
 </ul>
-<h4 id="AutoResponder文件代理（重定向功能）"><a href="#AutoResponder文件代理（重定向功能）" class="headerlink" title="AutoResponder文件代理（重定向功能）"></a>AutoResponder文件代理（重定向功能）</h4><p>AutoResponder是fiddler的一个重定向功能，主要是通过对会话的拦截，替换原始资源的功能。<br><img src="http://pdy15ad3h.bkt.clouddn.com/fillder-AutoResponder.png" alt="AutoResponder"><br>默认的一些过滤规则<br><img src="http://pdy15ad3h.bkt.clouddn.com/fiddler-rulerdit.png" alt="rulerdit"><br>详细的过滤规则<br>无前缀：（搜索到字符串就匹配，不区分大小写）<br>rules | match<br>—|—<br><em>| <a href="http://www.example.com/Path1/query=example" target="_blank" rel="noopener">http://www.example.com/Path1/query=example</a><br>EXAMPLE | <a href="http://www.example.com/Path1/query=example" target="_blank" rel="noopener">http://www.example.com/Path1/query=example</a><br>path1/ | <a href="http://www.example.com/Path1/query=example" target="_blank" rel="noopener">http://www.example.com/Path1/query=example</a><br>query | <a href="http://www.example.com/Path1/q=Query" target="_blank" rel="noopener">http://www.example.com/Path1/q=Query</a><br>not:发现就不匹配<br>rules | match<br>—|—<br>NOT:EXAMPLE| <a href="http://www.test.com/Path1/query=test" target="_blank" rel="noopener">http://www.test.com/Path1/query=test</a><br>NOT:path1/ | <a href="http://www.example.com/Path2/query=example" target="_blank" rel="noopener">http://www.example.com/Path2/query=example</a><br>NOT:query| <a href="http://www.example.com/Path1/q" target="_blank" rel="noopener">http://www.example.com/Path1/q</a><br>Exact：精确匹配（区分大小写）<br>rules | match<br>—|—<br>EXACT:<a href="http://www.example.com/path" target="_blank" rel="noopener">http://www.example.com/path</a>    |<a href="http://www.example.com/path" target="_blank" rel="noopener">http://www.example.com/path</a><br>EXACT:<a href="http://www.example.com/path" target="_blank" rel="noopener">http://www.example.com/path</a>    |<a href="http://www.example.com/Path" target="_blank" rel="noopener">http://www.example.com/Path</a> (不匹配- 大小写不一样)<br>EXACT:<a href="http://www.example.com/path" target="_blank" rel="noopener">http://www.example.com/path</a>    |<a href="http://www.example.com/path/q=Query" target="_blank" rel="noopener">http://www.example.com/path/q=Query</a> (不匹配- 子字符串不一样)<br>正则表达式：<br>Fiddler支持以regex:为前缀的正则表达式语法，使用.+匹配一个或多个字符，使用.</em>匹配0个或多个字符，使用^匹配字符串开始位置，使用$匹配字符串结尾位置。<br>rules | match<br>—|—<br>regex:.+|<a href="http://www.example.com/Path1/query=example" target="_blank" rel="noopener">http://www.example.com/Path1/query=example</a><br>regex:.+.jpg.* |    <a href="http://www.example.com/Path1/query=foo.jpg&amp;bar" target="_blank" rel="noopener">http://www.example.com/Path1/query=foo.jpg&amp;bar</a><br>    <a href="http://www.example.com/Path1/query=example.jpg" target="_blank" rel="noopener">http://www.example.com/Path1/query=example.jpg</a><br>regex:.+.jpg | <a href="http://www.example.com/Path1/query=foo.jpg&amp;bar" target="_blank" rel="noopener">http://www.example.com/Path1/query=foo.jpg&amp;bar</a> (No Match - improper ending)<br><a href="http://www.example.com/Path1/query=example.jpg" target="_blank" rel="noopener">http://www.example.com/Path1/query=example.jpg</a><br>regex:.+.(jpg|gif|bmp)$|    <a href="http://www.example.com/Path1/query=foo.bmp&amp;bar" target="_blank" rel="noopener">http://www.example.com/Path1/query=foo.bmp&amp;bar</a> (No Match - improper ending)<br><a href="http://www.example.com/Path1/query=example.gif" target="_blank" rel="noopener">http://www.example.com/Path1/query=example.gif</a><br><a href="http://www.example.com/Path1/query=example.Gif" target="_blank" rel="noopener">http://www.example.com/Path1/query=example.Gif</a> (No Match - mismatched case)<br><a href="http://www.example.com/Path1/query=example.bmp" target="_blank" rel="noopener">http://www.example.com/Path1/query=example.bmp</a><br>regex:(?insx).+.(jpg|gif|bmp)$|    <a href="http://www.example.com/Path1/query=foo.bmp&amp;bar" target="_blank" rel="noopener">http://www.example.com/Path1/query=foo.bmp&amp;bar</a> (No Match - improper ending)<br><a href="http://www.example.com/Path1/query=example.gif" target="_blank" rel="noopener">http://www.example.com/Path1/query=example.gif</a><br><a href="http://www.example.com/Path1/query=example.Gif" target="_blank" rel="noopener">http://www.example.com/Path1/query=example.Gif</a><br><a href="http://www.example.com/Path1/query=example.bmp" target="_blank" rel="noopener">http://www.example.com/Path1/query=example.bmp</a><br>举例一：  </p>
+<h4 id="AutoResponder文件代理（重定向功能）"><a href="#AutoResponder文件代理（重定向功能）" class="headerlink" title="AutoResponder文件代理（重定向功能）"></a>AutoResponder文件代理（重定向功能）</h4><p>AutoResponder是fiddler的一个重定向功能，主要是通过对会话的拦截，替换原始资源的功能。<br><img src="http://pdy15ad3h.bkt.clouddn.com/fillder-AutoResponder.png" alt="AutoResponder"><br>默认的一些过滤规则<br><img src="http://pdy15ad3h.bkt.clouddn.com/fiddler-rulerdit.png" alt="rulerdit"><br>详细的过滤规则<br>无前缀：（搜索到字符串就匹配，不区分大小写）<br><img src="http://pdy15ad3h.bkt.clouddn.com/fidder-%E6%97%A0%E5%89%8D%E7%BC%80.png" alt="无前缀"><br>not:发现就不匹配<br><img src="http://pdy15ad3h.bkt.clouddn.com/fidder-not.png" alt="not"><br>Exact：精确匹配（区分大小写）<br><img src="http://pdy15ad3h.bkt.clouddn.com/fidder-Exact.png" alt="Exact"><br>正则表达式：<br>Fiddler支持以regex:为前缀的正则表达式语法，使用.+匹配一个或多个字符，使用.*匹配0个或多个字符，使用^匹配字符串开始位置，使用$匹配字符串结尾位置。<br><img src="http://pdy15ad3h.bkt.clouddn.com/fidder-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F.png" alt="正则表达式"><br>举例一：  </p>
 <ol>
 <li>登录百度首页</li>
 <li>用fiddler抓取请求<br><img src="http://pdy15ad3h.bkt.clouddn.com/fillder-atuoresponse-example1.png" alt="example1"> </li>
@@ -887,7 +891,7 @@
 
 	<div class="theme-info">
 	  <div class="powered-by"></div>
-	  <span class="post-count">博客全站共6.0k字</span>
+	  <span class="post-count">博客全站共5.7k字</span>
 	</div>
 
 
